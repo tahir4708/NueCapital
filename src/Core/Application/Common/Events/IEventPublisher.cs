@@ -1,6 +1,7 @@
-using FSH.WebApi.Shared.Events;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Application.Common.Events;
+namespace NueCapital.WebApi.Application.Common.Events;
 
 public interface IEventPublisher : ITransientService
 {

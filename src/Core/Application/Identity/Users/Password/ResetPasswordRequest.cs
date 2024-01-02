@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Identity.Users.Password;
+namespace NueCapital.WebApi.Application.Identity.Users.Password;
 
 public class ResetPasswordRequest
 {

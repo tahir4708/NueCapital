@@ -1,22 +1,22 @@
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.BackgroundJobs;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Cors;
-using FSH.WebApi.Infrastructure.FileStorage;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Mailing;
-using FSH.WebApi.Infrastructure.Mapping;
-using FSH.WebApi.Infrastructure.Middleware;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Notifications;
-using FSH.WebApi.Infrastructure.OpenApi;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
-using FSH.WebApi.Infrastructure.SecurityHeaders;
-using FSH.WebApi.Infrastructure.Validations;
+using NueCapital.WebApi.Infrastructure.Auth;
+using NueCapital.WebApi.Infrastructure.BackgroundJobs;
+using NueCapital.WebApi.Infrastructure.Caching;
+using NueCapital.WebApi.Infrastructure.Common;
+using NueCapital.WebApi.Infrastructure.Cors;
+using NueCapital.WebApi.Infrastructure.FileStorage;
+using NueCapital.WebApi.Infrastructure.Localization;
+using NueCapital.WebApi.Infrastructure.Mailing;
+using NueCapital.WebApi.Infrastructure.Mapping;
+using NueCapital.WebApi.Infrastructure.Middleware;
+using NueCapital.WebApi.Infrastructure.Multitenancy;
+using NueCapital.WebApi.Infrastructure.Notifications;
+using NueCapital.WebApi.Infrastructure.OpenApi;
+using NueCapital.WebApi.Infrastructure.Persistence;
+using NueCapital.WebApi.Infrastructure.Persistence.Initialization;
+using NueCapital.WebApi.Infrastructure.SecurityHeaders;
+using NueCapital.WebApi.Infrastructure.Validations;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
@@ -26,13 +26,13 @@ using Microsoft.Extensions.DependencyInjection;
 
 [assembly: InternalsVisibleTo("Infrastructure.Test")]
 
-namespace FSH.WebApi.Infrastructure;
+namespace NueCapital.WebApi.Infrastructure;
 
 public static class Startup
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
     {
-        var applicationAssembly = typeof(FSH.WebApi.Application.Startup).GetTypeInfo().Assembly;
+        var applicationAssembly = typeof(NueCapital.WebApi.Application.Startup).GetTypeInfo().Assembly;
         MapsterSettings.Configure();
         return services
             .AddApiVersioning()

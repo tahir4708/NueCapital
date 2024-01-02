@@ -1,18 +1,18 @@
 ﻿using System.Security.Claims;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Infrastructure.Multitenancy;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Identity.Web;
+using NueCapital.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Shared.Multitenancy;
 using Serilog;
 
-namespace FSH.WebApi.Infrastructure.Auth.AzureAd;
+namespace NueCapital.WebApi.Infrastructure.Auth.AzureAd;
 
 internal class AzureAdJwtBearerEvents : JwtBearerEvents
 {

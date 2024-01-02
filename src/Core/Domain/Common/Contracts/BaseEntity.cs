@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using MassTransit;
 
-namespace FSH.WebApi.Domain.Common.Contracts;
+namespace NueCapital.WebApi.Domain.Common.Contracts;
 
 public abstract class BaseEntity : BaseEntity<DefaultIdType>
 {

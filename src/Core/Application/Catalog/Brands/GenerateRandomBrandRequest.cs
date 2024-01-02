@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Application.Catalog.Brands;
+﻿using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Catalog.Brands;
 
 public class GenerateRandomBrandRequest : IRequest<string>
 {

@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Users.Password;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Identity.Users.Password;
 
 public class ForgotPasswordRequest
 {

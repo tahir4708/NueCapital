@@ -1,7 +1,7 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using NueCapital.WebApi.Application.Common.Interfaces;
 
-namespace FSH.WebApi.Infrastructure.Common;
+namespace NueCapital.WebApi.Infrastructure.Common;
 
 internal static class Startup
 {

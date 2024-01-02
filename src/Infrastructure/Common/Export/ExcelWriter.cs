@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Data;
 using ClosedXML.Excel;
-using FSH.WebApi.Application.Common.Exporters;
+using NueCapital.WebApi.Application.Common.Exporters;
 
-namespace FSH.WebApi.Infrastructure.Common.Export;
+namespace NueCapital.WebApi.Infrastructure.Common.Export;
 
 public class ExcelWriter : IExcelWriter
 {

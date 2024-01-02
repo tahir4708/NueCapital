@@ -1,8 +1,12 @@
-namespace FSH.WebApi.Application.Catalog.Products;
+using NueCapital.WebApi.Application.Catalog.Products;
+using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Common.Persistence;
+
+namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class SearchProductsRequest : PaginationFilter, IRequest<PaginationResponse<ProductDto>>
 {
-    public Guid? BrandId { get; set; }
+    public DefaultIdType? BrandId { get; set; }
     public decimal? MinimumRate { get; set; }
     public decimal? MaximumRate { get; set; }
 }

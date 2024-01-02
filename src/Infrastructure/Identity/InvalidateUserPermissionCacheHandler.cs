@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
+﻿using NueCapital.WebApi.Domain.Identity;
 using Microsoft.AspNetCore.Identity;
+using NueCapital.WebApi.Application.Common.Events;
+using NueCapital.WebApi.Application.Identity.Users;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal class InvalidateUserPermissionCacheHandler :
     IEventNotificationHandler<ApplicationUserUpdatedEvent>,

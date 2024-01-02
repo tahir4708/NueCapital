@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Host.Controllers;
+﻿namespace NueCapital.WebApi.Host.Controllers;
 
 [Route("api/[controller]")]
 [ApiVersionNeutral]

@@ -1,8 +1,8 @@
-﻿using FSH.WebApi.Application.Common.Caching;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NueCapital.WebApi.Application.Common.Caching;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace NueCapital.WebApi.Infrastructure.Caching;
 
 internal static class Startup
 {

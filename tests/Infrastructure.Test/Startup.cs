@@ -1,14 +1,14 @@
-﻿using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Infrastructure.Caching;
-using FSH.WebApi.Infrastructure.Common.Services;
-using FSH.WebApi.Infrastructure.Localization;
-using FSH.WebApi.Infrastructure.Persistence.ConnectionString;
+﻿using NueCapital.WebApi.Infrastructure.Caching;
+using NueCapital.WebApi.Infrastructure.Common.Services;
+using NueCapital.WebApi.Infrastructure.Localization;
+using NueCapital.WebApi.Infrastructure.Persistence.ConnectionString;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Common.Persistence;
 
 namespace Infrastructure.Test;
 

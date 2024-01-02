@@ -1,15 +1,15 @@
-using FSH.WebApi.Application.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
+using NueCapital.WebApi.Application.Multitenancy;
+using NueCapital.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace NueCapital.WebApi.Infrastructure.Multitenancy;
 
 internal static class Startup
 {

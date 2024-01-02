@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Infrastructure.Multitenancy;
+﻿using NueCapital.WebApi.Infrastructure.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 
 internal interface IDatabaseInitializer
 {

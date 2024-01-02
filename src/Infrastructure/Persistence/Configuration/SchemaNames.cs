@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Persistence.Configuration;
+﻿namespace NueCapital.WebApi.Infrastructure.Persistence.Configuration;
 
 internal static class SchemaNames
 {

@@ -1,8 +1,8 @@
-namespace FSH.WebApi.Application.Identity.Users;
+namespace NueCapital.WebApi.Application.Identity.Users;
 
 public class UserDetailsDto
 {
-    public Guid Id { get; set; }
+    public DefaultIdType Id { get; set; }
 
     public string? UserName { get; set; }
 

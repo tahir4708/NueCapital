@@ -1,14 +1,14 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Application.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Infrastructure.Persistence;
+using NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 using Mapster;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
+using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace NueCapital.WebApi.Infrastructure.Multitenancy;
 
 internal class TenantService : ITenantService
 {

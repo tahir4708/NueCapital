@@ -1,4 +1,8 @@
-namespace FSH.WebApi.Application.Catalog.Brands;
+using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Common.Specification;
+
+namespace NueCapital.WebApi.Application.Catalog.Brands;
 
 public class SearchBrandsRequest : PaginationFilter, IRequest<PaginationResponse<BrandDto>>
 {

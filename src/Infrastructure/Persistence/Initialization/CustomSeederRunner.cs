@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 
 internal class CustomSeederRunner
 {

@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Auditing;
+using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Auditing;
 
 public class GetMyAuditLogsRequest : IRequest<List<AuditDto>>
 {

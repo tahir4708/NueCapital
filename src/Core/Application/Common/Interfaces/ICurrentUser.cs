@@ -1,12 +1,12 @@
 using System.Security.Claims;
 
-namespace FSH.WebApi.Application.Common.Interfaces;
+namespace NueCapital.WebApi.Application.Common.Interfaces;
 
 public interface ICurrentUser
 {
     string? Name { get; }
 
-    Guid GetUserId();
+    DefaultIdType GetUserId();
 
     string? GetUserEmail();
 

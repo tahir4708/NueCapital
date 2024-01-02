@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Common.FileStorage;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Common.FileStorage;
 
 public class FileUploadRequest
 {

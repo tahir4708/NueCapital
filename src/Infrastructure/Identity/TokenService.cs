@@ -2,19 +2,19 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Identity.Tokens;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.Auth.Jwt;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Infrastructure.Auth;
+using NueCapital.WebApi.Infrastructure.Auth.Jwt;
+using NueCapital.WebApi.Infrastructure.Multitenancy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using NueCapital.WebApi.Application.Identity.Tokens;
+using NueCapital.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal class TokenService : ITokenService
 {

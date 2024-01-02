@@ -1,12 +1,13 @@
 ﻿using Mapster;
+using NueCapital.WebApi.Application.Common.Persistence;
 
-namespace FSH.WebApi.Application.Catalog.Products;
+namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class GetProductViaDapperRequest : IRequest<ProductDto>
 {
-    public Guid Id { get; set; }
+    public DefaultIdType Id { get; set; }
 
-    public GetProductViaDapperRequest(Guid id) => Id = id;
+    public GetProductViaDapperRequest(DefaultIdType id) => Id = id;
 }
 
 public class GetProductViaDapperRequestHandler : IRequestHandler<GetProductViaDapperRequest, ProductDto>

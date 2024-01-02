@@ -1,9 +1,9 @@
 ﻿using Finbuckle.MultiTenant.EntityFrameworkCore;
-using FSH.WebApi.Domain.Catalog;
+using NueCapital.WebApi.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Configuration;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Configuration;
 
 public class BrandConfig : IEntityTypeConfiguration<Brand>
 {

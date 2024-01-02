@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Shared.Events;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Application.Common.Events;
+using NueCapital.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Infrastructure.Common.Services;
+namespace NueCapital.WebApi.Infrastructure.Common.Services;
 
 public class EventPublisher : IEventPublisher
 {

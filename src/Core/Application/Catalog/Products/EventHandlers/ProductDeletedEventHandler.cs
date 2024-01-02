@@ -1,6 +1,7 @@
-using FSH.WebApi.Domain.Common.Events;
+using NueCapital.WebApi.Domain.Common.Events;
+using NueCapital.WebApi.Application.Common.Events;
 
-namespace FSH.WebApi.Application.Catalog.Products.EventHandlers;
+namespace NueCapital.WebApi.Application.Catalog.Products.EventHandlers;
 
 public class ProductDeletedEventHandler : EventNotificationHandler<EntityDeletedEvent<Product>>
 {

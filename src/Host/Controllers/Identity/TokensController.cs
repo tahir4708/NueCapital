@@ -1,6 +1,6 @@
-using FSH.WebApi.Application.Identity.Tokens;
+using NueCapital.WebApi.Application.Identity.Tokens;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace NueCapital.WebApi.Host.Controllers.Identity;
 
 public sealed class TokensController : VersionNeutralApiController
 {

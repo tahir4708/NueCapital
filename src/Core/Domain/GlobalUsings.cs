@@ -1,1 +1,1 @@
-﻿global using FSH.WebApi.Domain.Common.Contracts;
+﻿global using NueCapital.WebApi.Domain.Common.Contracts;

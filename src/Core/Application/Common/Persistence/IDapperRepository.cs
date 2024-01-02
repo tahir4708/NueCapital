@@ -1,6 +1,7 @@
+using NueCapital.WebApi.Application.Common.Interfaces;
 using System.Data;
 
-namespace FSH.WebApi.Application.Common.Persistence;
+namespace NueCapital.WebApi.Application.Common.Persistence;
 
 public interface IDapperRepository : ITransientService
 {

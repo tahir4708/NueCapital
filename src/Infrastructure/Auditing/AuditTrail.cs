@@ -1,7 +1,7 @@
-using FSH.WebApi.Application.Common.Interfaces;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using NueCapital.WebApi.Application.Common.Interfaces;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace NueCapital.WebApi.Infrastructure.Auditing;
 
 public class AuditTrail
 {

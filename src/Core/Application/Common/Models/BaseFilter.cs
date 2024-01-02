@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Common.Models;
+namespace NueCapital.WebApi.Application.Common.Models;
 
 public class BaseFilter
 {

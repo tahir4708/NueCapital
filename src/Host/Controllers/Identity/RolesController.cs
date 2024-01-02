@@ -1,6 +1,8 @@
-using FSH.WebApi.Application.Identity.Roles;
+using NueCapital.WebApi.Application.Identity.Roles;
+using NueCapital.WebApi.Host.Controllers;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace NueCapital.WebApi.Host.Controllers.Identity;
 
 public class RolesController : VersionNeutralApiController
 {

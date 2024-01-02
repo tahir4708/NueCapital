@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Identity;
+﻿namespace NueCapital.WebApi.Infrastructure.Identity;
 
 public class RegisterUserEmailModel
 {

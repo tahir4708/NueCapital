@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Tokens;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Identity.Tokens;
 
 public record TokenRequest(string Email, string Password);
 

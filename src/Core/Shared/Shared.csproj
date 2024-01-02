@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>FSH.WebApi.Shared</RootNamespace>
-        <AssemblyName>FSH.WebApi.Shared</AssemblyName>
+        <RootNamespace>NueCapital.WebApi.Shared</RootNamespace>
+        <AssemblyName>NueCapital.WebApi.Shared</AssemblyName>
     </PropertyGroup>
     <ItemGroup>
       <PackageReference Update="Roslynator.Analyzers" Version="4.2.0">

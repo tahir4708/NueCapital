@@ -1,9 +1,9 @@
-using FSH.WebApi.Application;
-using FSH.WebApi.Host.Configurations;
-using FSH.WebApi.Host.Controllers;
-using FSH.WebApi.Infrastructure;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Logging.Serilog;
+using NueCapital.WebApi.Infrastructure;
+using NueCapital.WebApi.Infrastructure.Common;
+using NueCapital.WebApi.Infrastructure.Logging.Serilog;
+using NueCapital.WebApi.Application;
+using NueCapital.WebApi.Host.Configurations;
+using NueCapital.WebApi.Host.Controllers;
 using Serilog;
 using Serilog.Formatting.Compact;
 

@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Host.Configurations;
+namespace NueCapital.WebApi.Host.Configurations;
 
 internal static class Startup
 {

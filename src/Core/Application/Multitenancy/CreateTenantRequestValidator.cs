@@ -1,4 +1,7 @@
-namespace FSH.WebApi.Application.Multitenancy;
+using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Multitenancy;
 
 public class CreateTenantRequestValidator : CustomValidator<CreateTenantRequest>
 {

@@ -1,8 +1,8 @@
-using FSH.WebApi.Application.Common.Caching;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Application.Common.Caching;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace NueCapital.WebApi.Infrastructure.Caching;
 
 public class LocalCacheService : ICacheService
 {

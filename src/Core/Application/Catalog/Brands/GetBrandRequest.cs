@@ -1,15 +1,17 @@
-﻿namespace FSH.WebApi.Application.Catalog.Brands;
+﻿using NueCapital.WebApi.Application.Common.Persistence;
+
+namespace NueCapital.WebApi.Application.Catalog.Brands;
 
 public class GetBrandRequest : IRequest<BrandDto>
 {
-    public Guid Id { get; set; }
+    public DefaultIdType Id { get; set; }
 
-    public GetBrandRequest(Guid id) => Id = id;
+    public GetBrandRequest(DefaultIdType id) => Id = id;
 }
 
 public class BrandByIdSpec : Specification<Brand, BrandDto>, ISingleResultSpecification
 {
-    public BrandByIdSpec(Guid id) =>
+    public BrandByIdSpec(DefaultIdType id) =>
         Query.Where(p => p.Id == id);
 }
 

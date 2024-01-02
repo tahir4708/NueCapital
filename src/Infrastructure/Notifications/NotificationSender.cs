@@ -1,10 +1,10 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Shared.Notifications;
 using Microsoft.AspNetCore.SignalR;
-using static FSH.WebApi.Shared.Notifications.NotificationConstants;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Shared.Notifications;
+using static NueCapital.WebApi.Shared.Notifications.NotificationConstants;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace NueCapital.WebApi.Infrastructure.Notifications;
 
 public class NotificationSender : INotificationSender
 {

@@ -1,9 +1,9 @@
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbInitializer
 {

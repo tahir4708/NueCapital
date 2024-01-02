@@ -1,6 +1,8 @@
-using FSH.WebApi.Application.Multitenancy;
+using NueCapital.WebApi.Application.Multitenancy;
+using NueCapital.WebApi.Application.Multitenancy;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Host.Controllers.Multitenancy;
+namespace NueCapital.WebApi.Host.Controllers.Multitenancy;
 
 public class TenantsController : VersionNeutralApiController
 {

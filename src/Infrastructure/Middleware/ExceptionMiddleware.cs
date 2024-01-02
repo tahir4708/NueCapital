@@ -1,12 +1,12 @@
 using System.Net;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Localization;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Application.Common.Interfaces;
 using Serilog;
 using Serilog.Context;
 
-namespace FSH.WebApi.Infrastructure.Middleware;
+namespace NueCapital.WebApi.Infrastructure.Middleware;
 
 internal class ExceptionMiddleware : IMiddleware
 {

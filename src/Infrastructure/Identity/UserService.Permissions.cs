@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Shared.Authorization;
+﻿using NueCapital.WebApi.Application.Common.Exceptions;
 using Microsoft.EntityFrameworkCore;
+using NueCapital.WebApi.Application.Common.Caching;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

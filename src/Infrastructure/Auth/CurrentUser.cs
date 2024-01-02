@@ -1,7 +1,8 @@
 using System.Security.Claims;
-using FSH.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Auth;
+namespace NueCapital.WebApi.Infrastructure.Auth;
 
 public class CurrentUser : ICurrentUser, ICurrentUserInitializer
 {

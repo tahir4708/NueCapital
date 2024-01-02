@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Common.Interfaces;
 using Microsoft.AspNetCore.Http;
+using NueCapital.WebApi.Application.Common.Interfaces;
 using Serilog;
 using Serilog.Context;
 
-namespace FSH.WebApi.Infrastructure.Middleware;
+namespace NueCapital.WebApi.Infrastructure.Middleware;
 
 public class ResponseLoggingMiddleware : IMiddleware
 {

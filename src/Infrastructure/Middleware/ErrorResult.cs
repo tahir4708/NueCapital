@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Infrastructure.Middleware;
+﻿namespace NueCapital.WebApi.Infrastructure.Middleware;
 
 public class ErrorResult
 {

@@ -1,7 +1,9 @@
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Application.Identity.Users.Password;
+using NueCapital.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Application.Identity.Users.Password;
+using NueCapital.WebApi.Host.Controllers;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace NueCapital.WebApi.Host.Controllers.Identity;
 
 public class UsersController : VersionNeutralApiController
 {

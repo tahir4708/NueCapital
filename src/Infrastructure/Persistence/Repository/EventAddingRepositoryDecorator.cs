@@ -1,9 +1,9 @@
 ﻿using Ardalis.Specification;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Domain.Common.Events;
+using NueCapital.WebApi.Domain.Common.Contracts;
+using NueCapital.WebApi.Domain.Common.Events;
+using NueCapital.WebApi.Application.Common.Persistence;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Repository;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Repository;
 
 /// <summary>
 /// The repository that implements IRepositoryWithEvents.

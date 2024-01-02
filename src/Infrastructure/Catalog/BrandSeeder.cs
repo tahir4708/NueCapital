@@ -1,11 +1,11 @@
 using System.Reflection;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Domain.Catalog;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
+using NueCapital.WebApi.Domain.Catalog;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
+using NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Application.Common.Interfaces;
 
-namespace FSH.WebApi.Infrastructure.Catalog;
+namespace NueCapital.WebApi.Infrastructure.Catalog;
 
 public class BrandSeeder : ICustomSeeder
 {

@@ -9,7 +9,7 @@ using NSwag.AspNetCore;
 using NSwag.Generation.Processors.Security;
 using ZymLabs.NSwag.FluentValidation;
 
-namespace FSH.WebApi.Infrastructure.OpenApi;
+namespace NueCapital.WebApi.Infrastructure.OpenApi;
 
 internal static class Startup
 {
@@ -41,13 +41,13 @@ internal static class Startup
                     {
                         Name = settings.ContactName,
                         Email = settings.ContactEmail,
-                        Url = settings.ContactUrl
+                        //Url = settings.ContactUrl
                     };
-                    doc.Info.License = new()
-                    {
-                        Name = settings.LicenseName,
-                        Url = settings.LicenseUrl
-                    };
+                    //doc.Info.License = new()
+                    //{
+                    //    Name = settings.LicenseName,
+                    //    Url = settings.LicenseUrl
+                    //};
                 };
 
                 if (config["SecuritySettings:Provider"].Equals("AzureAd", StringComparison.OrdinalIgnoreCase))

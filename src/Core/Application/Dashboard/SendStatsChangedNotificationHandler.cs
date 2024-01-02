@@ -1,8 +1,10 @@
-using FSH.WebApi.Domain.Common.Events;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Events;
+using NueCapital.WebApi.Domain.Common.Events;
+using NueCapital.WebApi.Domain.Identity;
+using NueCapital.WebApi.Application.Common.Events;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace NueCapital.WebApi.Application.Dashboard;
 
 public class SendStatsChangedNotificationHandler :
     IEventNotificationHandler<EntityCreatedEvent<Brand>>,

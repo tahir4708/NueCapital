@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Common.Models;
 
 public static class PaginationResponseExtensions
 {

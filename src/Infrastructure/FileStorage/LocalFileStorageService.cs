@@ -1,10 +1,10 @@
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
-using FSH.WebApi.Application.Common.FileStorage;
-using FSH.WebApi.Domain.Common;
-using FSH.WebApi.Infrastructure.Common.Extensions;
+using NueCapital.WebApi.Domain.Common;
+using NueCapital.WebApi.Infrastructure.Common.Extensions;
+using NueCapital.WebApi.Application.Common.FileStorage;
 
-namespace FSH.WebApi.Infrastructure.FileStorage;
+namespace NueCapital.WebApi.Infrastructure.FileStorage;
 
 public class LocalFileStorageService : IFileStorageService
 {

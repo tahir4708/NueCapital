@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Common.Mailing;
+using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Common.Mailing;
 
 public interface IEmailTemplateService : ITransientService
 {

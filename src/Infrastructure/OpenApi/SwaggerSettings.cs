@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.OpenApi;
+namespace NueCapital.WebApi.Infrastructure.OpenApi;
 
 public class SwaggerSettings
 {

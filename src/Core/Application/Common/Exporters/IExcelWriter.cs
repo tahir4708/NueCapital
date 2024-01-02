@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Application.Common.Exporters;
+﻿using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Common.Exporters;
 
 public interface IExcelWriter : ITransientService
 {

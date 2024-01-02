@@ -1,10 +1,10 @@
 using System.Text;
-using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Interfaces;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Application.Common.Caching;
+using NueCapital.WebApi.Application.Common.Interfaces;
 
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace NueCapital.WebApi.Infrastructure.Caching;
 
 #pragma warning disable CA2254
 public class DistributedCacheService : ICacheService

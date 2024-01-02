@@ -1,4 +1,7 @@
-﻿namespace FSH.WebApi.Application.Catalog.Products;
+﻿using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Common.Specification;
+
+namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class ProductsBySearchRequestWithBrandsSpec : EntitiesByPaginationFilterSpec<Product, ProductDto>
 {

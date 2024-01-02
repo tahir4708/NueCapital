@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Tokens;
+using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Identity.Tokens;
 
 public interface ITokenService : ITransientService
 {

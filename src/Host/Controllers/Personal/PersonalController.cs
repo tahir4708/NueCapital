@@ -1,9 +1,9 @@
-using System.Security.Claims;
-using FSH.WebApi.Application.Auditing;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Application.Identity.Users.Password;
+using NueCapital.WebApi.Application.Auditing;
+using NueCapital.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Application.Identity.Users.Password;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Host.Controllers.Identity;
+namespace NueCapital.WebApi.Host.Controllers.Personal;
 
 public class PersonalController : VersionNeutralApiController
 {

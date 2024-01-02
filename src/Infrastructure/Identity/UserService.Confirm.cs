@@ -1,11 +1,11 @@
 using System.Text;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Infrastructure.Common;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

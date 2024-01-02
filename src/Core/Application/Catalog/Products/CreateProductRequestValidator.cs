@@ -1,4 +1,7 @@
-namespace FSH.WebApi.Application.Catalog.Products;
+using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class CreateProductRequestValidator : CustomValidator<CreateProductRequest>
 {

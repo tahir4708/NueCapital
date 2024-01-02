@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Domain.Identity;
+﻿namespace NueCapital.WebApi.Domain.Identity;
 
 public abstract class ApplicationUserEvent : DomainEvent
 {

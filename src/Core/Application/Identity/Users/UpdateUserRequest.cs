@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Application.Common.FileStorage;
+
+namespace NueCapital.WebApi.Application.Identity.Users;
 
 public class UpdateUserRequest
 {

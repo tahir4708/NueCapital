@@ -1,11 +1,11 @@
 using System.Data;
 using Dapper;
 using Finbuckle.MultiTenant.EntityFrameworkCore;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using NueCapital.WebApi.Domain.Common.Contracts;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
+using NueCapital.WebApi.Application.Common.Persistence;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Repository;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Repository;
 
 public class DapperRepository : IDapperRepository
 {

@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Caching;
+namespace NueCapital.WebApi.Infrastructure.Caching;
 
 public class CacheSettings
 {

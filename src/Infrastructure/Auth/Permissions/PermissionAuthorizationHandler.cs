@@ -1,8 +1,8 @@
-using System.Security.Claims;
-using FSH.WebApi.Application.Identity.Users;
 using Microsoft.AspNetCore.Authorization;
+using NueCapital.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Auth.Permissions;
+namespace NueCapital.WebApi.Infrastructure.Auth.Permissions;
 
 internal class PermissionAuthorizationHandler : AuthorizationHandler<PermissionRequirement>
 {

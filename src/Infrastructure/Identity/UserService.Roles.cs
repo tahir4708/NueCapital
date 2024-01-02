@@ -1,11 +1,11 @@
-﻿using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+﻿using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Domain.Identity;
 using Microsoft.EntityFrameworkCore;
+using NueCapital.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

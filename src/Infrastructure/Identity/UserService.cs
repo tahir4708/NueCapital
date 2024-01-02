@@ -1,26 +1,26 @@
 using Ardalis.Specification;
 using Ardalis.Specification.EntityFrameworkCore;
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Caching;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.FileStorage;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Common.Models;
-using FSH.WebApi.Application.Common.Specification;
-using FSH.WebApi.Application.Identity.Users;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Auth;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Application.Common.Specification;
+using NueCapital.WebApi.Domain.Identity;
+using NueCapital.WebApi.Infrastructure.Auth;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
+using NueCapital.WebApi.Application.Common.Caching;
+using NueCapital.WebApi.Application.Common.Events;
+using NueCapital.WebApi.Application.Common.FileStorage;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Common.Mailing;
+using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal partial class UserService : IUserService
 {

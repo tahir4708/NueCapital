@@ -1,14 +1,14 @@
 using System.Data.SqlClient;
 using System.Runtime.InteropServices;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Infrastructure.Common;
+using NueCapital.WebApi.Infrastructure.Common;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Options;
 using MySqlConnector;
 using Npgsql;
+using NueCapital.WebApi.Application.Common.Persistence;
 using Oracle.ManagedDataAccess.Client;
 
-namespace FSH.WebApi.Infrastructure.Persistence.ConnectionString;
+namespace NueCapital.WebApi.Infrastructure.Persistence.ConnectionString;
 
 public class ConnectionStringSecurer : IConnectionStringSecurer
 {

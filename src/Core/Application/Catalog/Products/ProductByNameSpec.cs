@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Catalog.Products;
+﻿namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class ProductByNameSpec : Specification<Product>, ISingleResultSpecification
 {

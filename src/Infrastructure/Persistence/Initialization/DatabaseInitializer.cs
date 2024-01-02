@@ -1,11 +1,11 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Infrastructure.Multitenancy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 
 internal class DatabaseInitializer : IDatabaseInitializer
 {

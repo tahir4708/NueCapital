@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Application.Catalog.Products;
+﻿using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class ProductExportDto : IDto
 {

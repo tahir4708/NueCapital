@@ -1,6 +1,6 @@
-﻿using FSH.WebApi.Shared.Multitenancy;
+﻿using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.OpenApi;
+namespace NueCapital.WebApi.Infrastructure.OpenApi;
 
 public class TenantIdHeaderAttribute : SwaggerHeaderAttribute
 {

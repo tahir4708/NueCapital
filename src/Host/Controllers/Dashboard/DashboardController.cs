@@ -1,6 +1,7 @@
-using FSH.WebApi.Application.Dashboard;
+using NueCapital.WebApi.Application.Dashboard;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Host.Controllers.Dashboard;
+namespace NueCapital.WebApi.Host.Controllers.Dashboard;
 
 public class DashboardController : VersionedApiController
 {

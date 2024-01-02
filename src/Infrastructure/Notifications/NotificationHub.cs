@@ -1,11 +1,11 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Common.Exceptions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Application.Common.Interfaces;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace NueCapital.WebApi.Infrastructure.Notifications;
 
 [Authorize]
 public class NotificationHub : Hub, ITransientService

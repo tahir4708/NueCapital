@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace FSH.WebApi.Infrastructure.Common.Extensions;
+namespace NueCapital.WebApi.Infrastructure.Common.Extensions;
 
 public static class TypeExtensions
 {

@@ -1,5 +1,5 @@
 using FluentAssertions;
-using FSH.WebApi.Application.Common.Caching;
+using NueCapital.WebApi.Application.Common.Caching;
 using Xunit;
 
 namespace Infrastructure.Test.Caching;

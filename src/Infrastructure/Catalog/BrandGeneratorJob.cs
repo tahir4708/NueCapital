@@ -1,17 +1,18 @@
 ﻿using Ardalis.Specification;
-using FSH.WebApi.Application.Catalog.Brands;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Catalog;
-using FSH.WebApi.Shared.Notifications;
+using NueCapital.WebApi.Application.Catalog.Brands;
+using NueCapital.WebApi.Domain.Catalog;
+using NueCapital.WebApi.Shared.Notifications;
 using Hangfire;
 using Hangfire.Console.Extensions;
 using Hangfire.Console.Progress;
 using Hangfire.Server;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Application.Catalog.Brands;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Common.Persistence;
 
-namespace FSH.WebApi.Infrastructure.Catalog;
+namespace NueCapital.WebApi.Infrastructure.Catalog;
 
 public class BrandGeneratorJob : IBrandGeneratorJob
 {

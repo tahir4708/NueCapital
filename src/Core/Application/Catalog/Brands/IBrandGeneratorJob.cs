@@ -1,6 +1,7 @@
-﻿using System.ComponentModel;
+﻿using NueCapital.WebApi.Application.Common.Interfaces;
+using System.ComponentModel;
 
-namespace FSH.WebApi.Application.Catalog.Brands;
+namespace NueCapital.WebApi.Application.Catalog.Brands;
 
 public interface IBrandGeneratorJob : IScopedService
 {

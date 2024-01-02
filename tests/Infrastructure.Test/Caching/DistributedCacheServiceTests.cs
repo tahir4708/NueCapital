@@ -1,4 +1,4 @@
-﻿using FSH.WebApi.Infrastructure.Caching;
+﻿using NueCapital.WebApi.Infrastructure.Caching;
 
 namespace Infrastructure.Test.Caching;
 

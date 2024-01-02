@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Users;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Identity.Users;
 
 public class UpdateUserRequestValidator : CustomValidator<UpdateUserRequest>
 {

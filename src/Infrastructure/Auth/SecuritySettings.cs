@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Infrastructure.Auth;
+namespace NueCapital.WebApi.Infrastructure.Auth;
 
 public class SecuritySettings
 {

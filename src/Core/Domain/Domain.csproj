@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>FSH.WebApi.Domain</RootNamespace>
-        <AssemblyName>FSH.WebApi.Domain</AssemblyName>
+        <RootNamespace>NueCapital.WebApi.Domain</RootNamespace>
+        <AssemblyName>NueCapital.WebApi.Domain</AssemblyName>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="NewId" Version="4.0.1" />

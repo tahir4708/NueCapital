@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Shared.Notifications;
-using MediatR;
+﻿using MediatR;
+using NueCapital.WebApi.Application.Common.Events;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Shared.Notifications;
 
-namespace FSH.WebApi.Infrastructure.Notifications;
+namespace NueCapital.WebApi.Infrastructure.Notifications;
 
 // Sends all events that are also an INotificationMessage to all clients
 // Note: for this to work, the Event/NotificationMessage class needs to be in the

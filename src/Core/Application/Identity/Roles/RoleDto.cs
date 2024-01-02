@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Application.Identity.Roles;
+namespace NueCapital.WebApi.Application.Identity.Roles;
 
 public class RoleDto
 {

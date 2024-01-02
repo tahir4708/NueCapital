@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Common.FileStorage;
+using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Common.FileStorage;
 
 public interface IFileStorageService : ITransientService
 {

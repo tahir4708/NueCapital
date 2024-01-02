@@ -1,9 +1,9 @@
-using FSH.WebApi.Application.Auditing;
-using FSH.WebApi.Infrastructure.Persistence.Context;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
+using NueCapital.WebApi.Application.Auditing;
 
-namespace FSH.WebApi.Infrastructure.Auditing;
+namespace NueCapital.WebApi.Infrastructure.Auditing;
 
 public class AuditService : IAuditService
 {

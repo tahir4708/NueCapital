@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Catalog.Brands;
+﻿namespace NueCapital.WebApi.Application.Catalog.Brands;
 
 public class BrandByNameSpec : Specification<Brand>, ISingleResultSpecification
 {

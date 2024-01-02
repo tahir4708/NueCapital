@@ -1,7 +1,9 @@
 using System.Security.Claims;
-using FSH.WebApi.Application.Identity.Users.Password;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Identity.Users.Password;
 
-namespace FSH.WebApi.Application.Identity.Users;
+namespace NueCapital.WebApi.Application.Identity.Users;
 
 public interface IUserService : ITransientService
 {

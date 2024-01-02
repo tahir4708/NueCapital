@@ -1,13 +1,13 @@
-﻿using FSH.WebApi.Infrastructure.Identity;
-using FSH.WebApi.Infrastructure.Multitenancy;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+﻿using NueCapital.WebApi.Infrastructure.Identity;
+using NueCapital.WebApi.Infrastructure.Multitenancy;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using NueCapital.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Persistence.Initialization;
+namespace NueCapital.WebApi.Infrastructure.Persistence.Initialization;
 
 internal class ApplicationDbSeeder
 {

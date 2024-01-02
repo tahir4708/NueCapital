@@ -1,8 +1,8 @@
 using System.Text;
-using FSH.WebApi.Application.Common.Mailing;
+using NueCapital.WebApi.Application.Common.Mailing;
 using RazorEngineCore;
 
-namespace FSH.WebApi.Infrastructure.Mailing;
+namespace NueCapital.WebApi.Infrastructure.Mailing;
 
 public class EmailTemplateService : IEmailTemplateService
 {

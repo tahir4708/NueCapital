@@ -1,8 +1,12 @@
-namespace FSH.WebApi.Application.Catalog.Brands;
+using NueCapital.WebApi.Application.Catalog.Brands;
+using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Common.Validation;
 
-public class UpdateBrandRequest : IRequest<Guid>
+namespace NueCapital.WebApi.Application.Catalog.Brands;
+
+public class UpdateBrandRequest : IRequest<DefaultIdType>
 {
-    public Guid Id { get; set; }
+    public DefaultIdType Id { get; set; }
     public string Name { get; set; } = default!;
     public string? Description { get; set; }
 }
@@ -19,7 +23,7 @@ public class UpdateBrandRequestValidator : CustomValidator<UpdateBrandRequest>
                 .WithMessage((_, name) => T["Brand {0} already Exists.", name]);
 }
 
-public class UpdateBrandRequestHandler : IRequestHandler<UpdateBrandRequest, Guid>
+public class UpdateBrandRequestHandler : IRequestHandler<UpdateBrandRequest, DefaultIdType>
 {
     // Add Domain Events automatically by using IRepositoryWithEvents
     private readonly IRepositoryWithEvents<Brand> _repository;
@@ -28,7 +32,7 @@ public class UpdateBrandRequestHandler : IRequestHandler<UpdateBrandRequest, Gui
     public UpdateBrandRequestHandler(IRepositoryWithEvents<Brand> repository, IStringLocalizer<UpdateBrandRequestHandler> localizer) =>
         (_repository, _t) = (repository, localizer);
 
-    public async Task<Guid> Handle(UpdateBrandRequest request, CancellationToken cancellationToken)
+    public async Task<DefaultIdType> Handle(UpdateBrandRequest request, CancellationToken cancellationToken)
     {
         var brand = await _repository.GetByIdAsync(request.Id, cancellationToken);
 

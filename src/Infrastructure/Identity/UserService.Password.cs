@@ -1,9 +1,9 @@
-﻿using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Mailing;
-using FSH.WebApi.Application.Identity.Users.Password;
+﻿using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Application.Common.Mailing;
 using Microsoft.AspNetCore.WebUtilities;
+using NueCapital.WebApi.Application.Identity.Users.Password;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal partial class UserService
 {

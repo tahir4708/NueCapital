@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Domain.Catalog;
+namespace NueCapital.WebApi.Domain.Catalog;
 
 public class Brand : AuditableEntity, IAggregateRoot
 {

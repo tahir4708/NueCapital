@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Roles;
+using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Identity.Roles;
 
 public interface IRoleService : ITransientService
 {

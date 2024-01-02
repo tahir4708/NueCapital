@@ -1,4 +1,4 @@
-﻿namespace FSH.WebApi.Application.Common.Specification;
+﻿namespace NueCapital.WebApi.Application.Common.Specification;
 
 public class AuditableEntitiesByCreatedOnBetweenSpec<T> : Specification<T>
     where T : AuditableEntity

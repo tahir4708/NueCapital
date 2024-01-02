@@ -1,7 +1,8 @@
-﻿using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Application.Identity.Users;
+﻿using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Identity.Roles;
+using NueCapital.WebApi.Application.Identity.Users;
 
-namespace FSH.WebApi.Application.Dashboard;
+namespace NueCapital.WebApi.Application.Dashboard;
 
 public class GetStatsRequest : IRequest<StatsDto>
 {

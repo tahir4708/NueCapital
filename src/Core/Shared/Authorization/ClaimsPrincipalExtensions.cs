@@ -1,6 +1,6 @@
-using FSH.WebApi.Shared.Authorization;
+using System.Security.Claims;
 
-namespace System.Security.Claims;
+namespace NueCapital.WebApi.Shared.Authorization;
 
 public static class ClaimsPrincipalExtensions
 {

@@ -1,6 +1,8 @@
-﻿using FSH.WebApi.Application.Catalog.Products;
+﻿using NueCapital.WebApi.Application.Catalog.Products;
+using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Shared.Authorization;
 
-namespace FSH.WebApi.Host.Controllers.Catalog;
+namespace NueCapital.WebApi.Host.Controllers.Catalog;
 
 public class ProductsController : VersionedApiController
 {
@@ -15,7 +17,7 @@ public class ProductsController : VersionedApiController
     [HttpGet("{id:guid}")]
     [MustHavePermission(FSHAction.View, FSHResource.Products)]
     [OpenApiOperation("Get product details.", "")]
-    public Task<ProductDetailsDto> GetAsync(Guid id)
+    public Task<ProductDetailsDto> GetAsync(DefaultIdType id)
     {
         return Mediator.Send(new GetProductRequest(id));
     }
@@ -23,7 +25,7 @@ public class ProductsController : VersionedApiController
     [HttpGet("dapper")]
     [MustHavePermission(FSHAction.View, FSHResource.Products)]
     [OpenApiOperation("Get product details via dapper.", "")]
-    public Task<ProductDto> GetDapperAsync(Guid id)
+    public Task<ProductDto> GetDapperAsync(DefaultIdType id)
     {
         return Mediator.Send(new GetProductViaDapperRequest(id));
     }
@@ -31,7 +33,7 @@ public class ProductsController : VersionedApiController
     [HttpPost]
     [MustHavePermission(FSHAction.Create, FSHResource.Products)]
     [OpenApiOperation("Create a new product.", "")]
-    public Task<Guid> CreateAsync(CreateProductRequest request)
+    public Task<DefaultIdType> CreateAsync(CreateProductRequest request)
     {
         return Mediator.Send(request);
     }
@@ -39,7 +41,7 @@ public class ProductsController : VersionedApiController
     [HttpPut("{id:guid}")]
     [MustHavePermission(FSHAction.Update, FSHResource.Products)]
     [OpenApiOperation("Update a product.", "")]
-    public async Task<ActionResult<Guid>> UpdateAsync(UpdateProductRequest request, Guid id)
+    public async Task<ActionResult<DefaultIdType>> UpdateAsync(UpdateProductRequest request, DefaultIdType id)
     {
         return id != request.Id
             ? BadRequest()
@@ -49,7 +51,7 @@ public class ProductsController : VersionedApiController
     [HttpDelete("{id:guid}")]
     [MustHavePermission(FSHAction.Delete, FSHResource.Products)]
     [OpenApiOperation("Delete a product.", "")]
-    public Task<Guid> DeleteAsync(Guid id)
+    public Task<DefaultIdType> DeleteAsync(DefaultIdType id)
     {
         return Mediator.Send(new DeleteProductRequest(id));
     }
@@ -62,4 +64,4 @@ public class ProductsController : VersionedApiController
         var result = await Mediator.Send(filter);
         return File(result, "application/octet-stream", "ProductExports");
     }
-    }
+}

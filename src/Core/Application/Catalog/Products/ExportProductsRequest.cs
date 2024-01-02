@@ -1,10 +1,13 @@
-﻿using FSH.WebApi.Application.Common.Exporters;
+﻿using NueCapital.WebApi.Application.Common.Exporters;
+using NueCapital.WebApi.Application.Common.Models;
+using NueCapital.WebApi.Application.Common.Persistence;
+using NueCapital.WebApi.Application.Common.Specification;
 
-namespace FSH.WebApi.Application.Catalog.Products;
+namespace NueCapital.WebApi.Application.Catalog.Products;
 
 public class ExportProductsRequest : BaseFilter, IRequest<Stream>
 {
-    public Guid? BrandId { get; set; }
+    public DefaultIdType? BrandId { get; set; }
     public decimal? MinimumRate { get; set; }
     public decimal? MaximumRate { get; set; }
 }

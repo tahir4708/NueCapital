@@ -1,4 +1,6 @@
-namespace FSH.WebApi.Application.Identity.Roles;
+using NueCapital.WebApi.Application.Common.Validation;
+
+namespace NueCapital.WebApi.Application.Identity.Roles;
 
 public class UpdateRolePermissionsRequest
 {

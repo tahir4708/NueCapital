@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using FSH.WebApi.Infrastructure.Persistence;
+using NueCapital.WebApi.Infrastructure.Persistence;
 using Xunit;
 
-namespace Infrastructure.Test;
+namespace Infrastructure.Test.Validation;
 
 public class DatabaseSettingsValidationTests
 {

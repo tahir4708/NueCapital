@@ -1,18 +1,18 @@
 using Finbuckle.MultiTenant;
-using FSH.WebApi.Application.Common.Events;
-using FSH.WebApi.Application.Common.Exceptions;
-using FSH.WebApi.Application.Common.Interfaces;
-using FSH.WebApi.Application.Identity.Roles;
-using FSH.WebApi.Domain.Identity;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Shared.Authorization;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Application.Common.Exceptions;
+using NueCapital.WebApi.Domain.Identity;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
+using NueCapital.WebApi.Application.Common.Events;
+using NueCapital.WebApi.Application.Common.Interfaces;
+using NueCapital.WebApi.Application.Identity.Roles;
+using NueCapital.WebApi.Shared.Authorization;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Identity;
+namespace NueCapital.WebApi.Infrastructure.Identity;
 
 internal class RoleService : IRoleService
 {

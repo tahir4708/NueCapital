@@ -1,6 +1,6 @@
-using FSH.WebApi.Shared.Events;
+using NueCapital.WebApi.Shared.Events;
 
-namespace FSH.WebApi.Domain.Common.Contracts;
+namespace NueCapital.WebApi.Domain.Common.Contracts;
 
 public abstract class DomainEvent : IEvent
 {

@@ -1,6 +1,6 @@
 {
   "LoggerSettings": {
-    "AppName": "FSH.WebApi",
+    "AppName": "NueCapital.WebApi",
     "WriteToFile": false,
     "StructuredConsoleLogging": true
   }

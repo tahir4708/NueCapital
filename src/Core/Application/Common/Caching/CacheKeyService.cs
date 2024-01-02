@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Application.Common.Caching;
+﻿using NueCapital.WebApi.Application.Common.Interfaces;
+
+namespace NueCapital.WebApi.Application.Common.Caching;
 
 public interface ICacheKeyService : IScopedService
 {

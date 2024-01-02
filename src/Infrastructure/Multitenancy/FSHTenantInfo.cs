@@ -1,7 +1,7 @@
 ﻿using Finbuckle.MultiTenant;
-using FSH.WebApi.Shared.Multitenancy;
+using NueCapital.WebApi.Shared.Multitenancy;
 
-namespace FSH.WebApi.Infrastructure.Multitenancy;
+namespace NueCapital.WebApi.Infrastructure.Multitenancy;
 
 public class FSHTenantInfo : ITenantInfo
 {

@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Application.Common.Interfaces;
+﻿using NueCapital.WebApi.Shared.Notifications;
+
+namespace NueCapital.WebApi.Application.Common.Interfaces;
 
 public interface INotificationSender : ITransientService
 {

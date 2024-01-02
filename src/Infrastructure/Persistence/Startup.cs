@@ -1,18 +1,18 @@
-using FSH.WebApi.Application.Common.Persistence;
-using FSH.WebApi.Domain.Common.Contracts;
-using FSH.WebApi.Infrastructure.Common;
-using FSH.WebApi.Infrastructure.Persistence.ConnectionString;
-using FSH.WebApi.Infrastructure.Persistence.Context;
-using FSH.WebApi.Infrastructure.Persistence.Initialization;
-using FSH.WebApi.Infrastructure.Persistence.Repository;
+using NueCapital.WebApi.Domain.Common.Contracts;
+using NueCapital.WebApi.Infrastructure.Common;
+using NueCapital.WebApi.Infrastructure.Persistence.ConnectionString;
+using NueCapital.WebApi.Infrastructure.Persistence.Context;
+using NueCapital.WebApi.Infrastructure.Persistence.Initialization;
+using NueCapital.WebApi.Infrastructure.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
+using NueCapital.WebApi.Application.Common.Persistence;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Serilog;
 
-namespace FSH.WebApi.Infrastructure.Persistence;
+namespace NueCapital.WebApi.Infrastructure.Persistence;
 
 internal static class Startup
 {

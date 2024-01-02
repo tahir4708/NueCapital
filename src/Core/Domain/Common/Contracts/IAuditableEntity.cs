@@ -1,4 +1,4 @@
-namespace FSH.WebApi.Domain.Common.Contracts;
+namespace NueCapital.WebApi.Domain.Common.Contracts;
 
 public interface IAuditableEntity
 {

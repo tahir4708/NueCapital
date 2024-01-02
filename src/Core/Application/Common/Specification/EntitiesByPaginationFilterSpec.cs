@@ -1,4 +1,6 @@
-﻿namespace FSH.WebApi.Application.Common.Specification;
+﻿using NueCapital.WebApi.Application.Common.Models;
+
+namespace NueCapital.WebApi.Application.Common.Specification;
 
 public class EntitiesByPaginationFilterSpec<T, TResult> : EntitiesByBaseFilterSpec<T, TResult>
 {
